@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Melbourne Auto Works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Professional Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="top-info">
+                <span><i class="ri-map-pin-line"></i> 59 North St, Richmond VIC 3121</span>
+                <span><i class="ri-time-line"></i> Mon-Fri : 7am - 5.15pm</span>
+            </div>
+            <div class="top-links">
+                <a href="mailto:info@melbourneautoworks.com.au"><i class="ri-mail-line"></i> Email Us</a>
+                <a href="https://www.facebook.com/melbourne.auto.works/" target="_blank"><i class="ri-facebook-fill"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agency Level Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="brand">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/MelbUto.svg" alt="Melbourne Auto Works Logo" class="brand-logo">
+            </a>
+            
+            <nav class="main-nav" id="mainNav" style="margin-left: auto; margin-right: 40px;">
+                <a href="https://melbourneautoworks.com.au/" class="active">Home</a>
+                <a href="https://melbourneautoworks.com.au/about-us/">About Us</a>
+                <a href="https://melbourneautoworks.com.au/service-offer/">Service Offer</a>
+                <a href="https://melbourneautoworks.com.au/services/">Services</a>
+                <a href="https://melbourneautoworks.com.au/gallery/">Gallery</a>
+                <a href="https://melbourneautoworks.com.au/blog/">Blog</a>
+                <a href="https://melbourneautoworks.com.au/contact-us/">Contact Us</a>
+            </nav>
+            
+            <div class="header-actions" id="headerActions">
+                <div class="call-dropdown-container">
+                    <button class="phone-cta-btn" id="callMenuBtn">
+                        <i class="ri-phone-fill"></i> (03) 9428 3311 <i class="ri-arrow-down-s-line ml-1"></i>
+                    </button>
+                    <div class="call-dropdown-menu" id="callMenu">
+                        <a href="tel:0394283311" class="call-option"><i class="ri-phone-line"></i> Call Now</a>
+                        <button class="call-option" onclick="copyNumber(this, '(03) 9428 3311')"><i class="ri-file-copy-line"></i> Copy No.</button>
+                    </div>
+                </div>
+                <a href="https://melbourneautoworks.com.au/contact-us/" class="btn-primary">BOOK NOW</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Professional Corporate Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge">ESTABLISHED 25 YEARS</div>
+                <h1 class="hero-title">Providing drivers with timely auto repairs and servicing.</h1>
+                <p class="hero-desc">The team at Melbourne Auto Works specialises in the repair of Australian, Japanese and European makes and models of passenger cars and light commercial vehicles.</p>
+                <div class="hero-cta-group">
+                    <a href="https://melbourneautoworks.com.au/services/" class="btn btn-primary btn-lg">OUR SERVICES <i class="ri-arrow-right-line ml-1"></i></a>
+                    <a href="https://melbourneautoworks.com.au/contact-us/" class="btn btn-outline btn-lg" style="color: var(--dark-blue); border-color: var(--dark-blue);">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accreditations / Partners Marquee -->
+    <div class="partners-marquee">
+        <div class="marquee-content">
+            <!-- Group 1 -->
+            <div class="marquee-group">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/racvlogo.png" alt="RACV">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Agrade500px.png" alt="A-Grade">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/GoGetPrimaryLogo_1.png" alt="GoGet">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/CASTROL-LOGO.png" alt="Castrol">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Channel9.png" alt="Channel 9">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Channel10.png" alt="Channel 10">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/sgfleet-300x225.jpg" alt="SG Fleet">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/SummitFleet.jpg" alt="Summit Fleet">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/fleetplus.jpg" alt="Fleet Plus">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/bendix-300x225.jpg" alt="Bendix">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/Ryco-Filters-300x225.jpg" alt="Ryco">
+            </div>
+            <!-- Group 2 (Exact Duplicate) -->
+            <div class="marquee-group" aria-hidden="true">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/racvlogo.png" alt="RACV">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Agrade500px.png" alt="A-Grade">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/GoGetPrimaryLogo_1.png" alt="GoGet">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/CASTROL-LOGO.png" alt="Castrol">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Channel9.png" alt="Channel 9">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Channel10.png" alt="Channel 10">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/sgfleet-300x225.jpg" alt="SG Fleet">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/SummitFleet.jpg" alt="Summit Fleet">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/fleetplus.jpg" alt="Fleet Plus">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/bendix-300x225.jpg" alt="Bendix">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/Ryco-Filters-300x225.jpg" alt="Ryco">
+            </div>
+        </div>
+    </div>
+    <section class="about-section">
+        <div class="container about-grid">
+            <div class="about-images">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/workshop2.jpg" class="img-main" alt="Melbourne Auto Works Workshop">
+                <div class="experience-box">
+                    <h2>25</h2>
+                    <p>Years of serving Richmond & Melbourne</p>
+                </div>
+            </div>
+            <div class="about-text-content">
+                <div class="section-label">WELCOME TO MELBOURNE AUTO WORKS</div>
+                <h2 class="section-title" style="margin-bottom: 24px;">Expert automotive care you can rely on.</h2>
+                <div class="text-body">
+                    <p style="margin-bottom: 24px;">The team at Melbourne Auto Works specialises in the repair of Australian, Japanese and European makes and models of passenger cars and light commercial vehicles. We have been providing automotive repairs and servicing for 25 years to our valued customers from Richmond, and the rest of Melbourne—some of our customers drive up from the peninsula just to have their car serviced with us!</p>
+                    
+                    <ul class="custom-check-list" style="list-style: none; padding: 0; display: grid; gap: 12px; margin-bottom: 32px;">
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> Manufacturer Logbook Servicing</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> Fleet Management</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> LPG-TDI-DSI</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> Child restraint installations</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> Air conditioning servicing & diagnostics</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> Licensed roadworthy inspections</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i class="ri-checkbox-circle-fill" style="color: var(--primary-red); font-size: 20px;"></i> RACV vehicle inspections</li>
+                    </ul>
+                </div>
+                <a href="https://melbourneautoworks.com.au/about-us/" class="link-arrow">Read more about us <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="services-header services-header-split">
+                <div>
+                    <h2 class="section-title text-white" style="margin-bottom: 16px;">Comprehensive Services</h2>
+                    <p class="text-white-50">Manufacturer Logbook Servicing • Fleet Management • LPG-TDI-DSI • Child restraint installations • Air conditioning servicing & diagnostics • Licensed roadworthy inspections • RACV vehicle inspections</p>
+                </div>
+                <div>
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/workshop3-1.jpg" alt="Workshop Services" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+                </div>
+            </div>
+
+            <div class="service-cards-grid">
+                <!-- Service 1 -->
+                <div class="b-card">
+                    <div class="b-icon"><i class="ri-book-read-line"></i></div>
+                    <h3>LOGBOOK SERVICING</h3>
+                    <p>Maintain your warranty and save money!</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="b-card">
+                    <div class="b-icon"><i class="ri-checkbox-circle-line"></i></div>
+                    <h3>ROADWORTHY INSPECTIONS</h3>
+                    <p>Have your vehicle checked by our authorised vehicle testers!</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="b-card">
+                    <div class="b-icon"><i class="ri-car-washing-line"></i></div>
+                    <h3>FLEET MANAGEMENT</h3>
+                    <p>Service a range of light commercial vehicles, including utes and vans.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="b-card">
+                    <div class="b-icon"><i class="ri-temp-cold-line"></i></div>
+                    <h3>AIR CONDITIONING</h3>
+                    <p>Air conditioning servicing & diagnostics to keep you comfortable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dedicated Contact CTA -->
+    <section class="contact-cta-section">
+        <div class="container">
+            <div class="contact-cta-grid">
+                <div>
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/contactus.jpg" alt="Contact Us" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1);">
+                </div>
+                <div>
+                    <div class="section-label">GET IN TOUCH</div>
+                    <h2 class="section-title">Ready to book your service?</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 32px; font-size: 18px;">Our friendly team is standing by to help you with all your automotive needs. Give us a call or drop in today.</p>
+                    <div class="cta-buttons">
+                        <a href="tel:0394288644" class="btn btn-primary btn-lg"><i class="ri-phone-fill"></i> (03) 9428 8644</a>
+                        <a href="https://melbourneautoworks.com.au/contact-us/" class="btn btn-outline btn-lg">Book Online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Why Choose Us Grid -->
+    <section class="why-us-section">
+        <div class="container">
+            <div class="section-label text-center">WHY CHOOSE US</div>
+            <h2 class="section-title text-center mb-5">The highest standards of workmanship.</h2>
+            
+            <div class="features-grid">
+                <div class="feature-block">
+                    <div class="f-icon"><i class="ri-user-star-line"></i></div>
+                    <h4>EXPERIENCED TECHNICIANS</h4>
+                    <p>Providing drivers in the Richmond area with auto repairs & servicing for over 19 years</p>
+                    <a href="https://melbourneautoworks.com.au/about-us/">MORE INFO <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="feature-block">
+                    <div class="f-icon"><i class="ri-car-line"></i></div>
+                    <h4>LOAN CAR AVAILABLE!</h4>
+                    <p>Book in advance to ensure availability</p>
+                    <a href="https://melbourneautoworks.com.au/services/">MORE INFO <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="feature-block">
+                    <div class="f-img"><img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Agrade500px.png" alt="A-Grade"></div>
+                    <h4>VACC-CERTIFIED A-GRADE REPAIRER</h4>
+                    <p>The highest standards of workmanship and customer service.</p>
+                    <a href="https://melbourneautoworks.com.au/about-us/">MORE INFO <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="feature-block">
+                    <div class="f-img"><img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/racvlogo.png" alt="RACV Accredited"></div>
+                    <h4>RACV ACCREDITED AUTO CARE</h4>
+                    <p>RACV Members receive an extended warranty on all services, repairs and parts.</p>
+                    <a href="https://melbourneautoworks.com.au/racv-inspections/">MORE INFO <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Parts & Brands -->
+    <section class="brands-section">
+        <div class="container text-center">
+            <div class="section-label">PREMIUM QUALITY</div>
+            <h2 class="section-title mb-5">Trusted Parts & Brands</h2>
+            <div class="parts-grid">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/bendix-300x225.jpg" alt="Bendix" class="part-logo">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/Ryco-Filters-300x225.jpg" alt="Ryco" class="part-logo">
+                <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/castroloils-300x225.jpg" alt="Castrol Oils" class="part-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- RACV Special Section (Asymmetrical Banner) -->
+    <section class="racv-banner">
+        <div class="container">
+            <div class="racv-inner">
+                <div class="racv-content">
+                    <h2>RACV ACCREDITED AUTO CARE CENTRE</h2>
+                    <div class="racv-highlight">
+                        <p>Complete an RACV or RWC Inspection with us and you are eligible for $239 service valued at over $500!</p>
+                        <a href="https://melbourneautoworks.com.au/racv-inspections/" class="btn btn-primary mt-3">More info</a>
+                    </div>
+                    <div class="racv-text">
+                        <p>RACV Breakdown Service customer vehicles are towed to our nearby secure carpark 24/7 for next-day repairs.</p>
+                        <p>Non-Members call 13 48 69 for Nationwide Towing & Transport.</p>
+                    </div>
+                </div>
+                <div class="racv-visual">
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/racv_agrade.png" alt="RACV Accredited" class="racv-logo-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Footer -->
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <div class="f-brand">
+                <h2>Melbourne Auto Works</h2>
+                <p>Providing drivers with timely auto repairs and servicing for the past 25 years.</p>
+                <div class="f-map" style="margin-top: 24px;">
+                    <iframe src="https://maps.google.com/maps?q=59%20North%20St,%20Richmond%20VIC%203121&t=&z=14&ie=UTF8&iwloc=&output=embed" height="220" style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="f-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://melbourneautoworks.com.au/">Home</a></li>
+                    <li><a href="https://melbourneautoworks.com.au/about-us/">About Us</a></li>
+                    <li><a href="https://melbourneautoworks.com.au/service-offer/">Service Offer</a></li>
+                    <li><a href="https://melbourneautoworks.com.au/services/">Services</a></li>
+                    <li><a href="https://melbourneautoworks.com.au/racv-inspections/">RACV Testing</a></li>
+                    <li><a href="https://melbourneautoworks.com.au/roadworthy/">Roadworthy</a></li>
+                    <li><a href="https://melbourneautoworks.com.au/gallery/">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="f-contact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="ri-map-pin-2-fill"></i> <a href="https://goo.gl/maps/m6oQFgJND5K33GTo8">59 North St, Richmond VIC 3121</a></li>
+                    <li><i class="ri-phone-fill"></i> <a href="tel:0394288644">(03) 9428 8644</a></li>
+                    <li><i class="ri-mail-fill"></i> <a href="mailto:info@melbourneautoworks.com.au">Send us a message</a></li>
+                    <li><i class="ri-time-fill"></i> Mon-Fri : 7am - 5.15pm</li>
+                    <li><i class="ri-facebook-circle-fill"></i> <a href="https://melbourneautoworks.com.au/" target="_blank">Follow us on Facebook</a></li>
+                </ul>
+                <a href="https://melbourneautoworks.com.au/contact-us/" class="btn btn-outline btn-block mt-4">BOOK NOW</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container fb-inner" style="flex-direction: column; align-items: center; gap: 32px;">
+                <div class="footer-logos" style="display: flex; gap: 32px; align-items: center; flex-wrap: wrap; justify-content: center; width: 100%;">
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/04/Member.png" alt="VACC Member" style="height: 48px; object-fit: contain;">
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/02/racvlogo.png" alt="RACV" style="height: 48px; object-fit: contain;">
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/05/Agrade500px.png" alt="A-Grade" style="height: 48px; object-fit: contain;">
+                    <img src="https://melbourneautoworks.com.au/wp-content/uploads/2022/01/crds.svg" alt="Accepted Cards" style="height: 35px; object-fit: contain;">
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; width: 100%; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px;">
+                    <div class="fb-links" style="display: flex; gap: 24px; flex-wrap: wrap; justify-content: center;">
+                        <a href="https://melbourneautoworks.com.au/privacy-policy/">Privacy Policy</a>
+                        <a href="https://melbourneautoworks.com.au/terms-conditions/">Terms of Service</a>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; text-align: center;">
+                        <p style="margin: 0; color: rgba(255,255,255,0.7); font-size: 13px;">Copyright 2026 &copy; <strong>Melbourne Auto Repairs</strong> |</p>
+                        <a href="https://ourauto.com.au" target="_blank" rel="noopener" style="display: flex; align-items: center;">
+                            <img src="https://melbourneautoworks.com.au/wp-content/uploads/2021/11/powered_white.png" alt="Powered By OurAuto" width="125px" style="opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Copy Number Logic
+        function copyNumber(btn, text) {
+            navigator.clipboard.writeText(text);
+            const originalHTML = btn.innerHTML;
+            btn.innerHTML = '<i class="ri-check-double-line"></i> Copied!';
+            btn.style.color = 'var(--primary-red)';
+            btn.style.fontWeight = 'bold';
+            setTimeout(() => {
+                btn.innerHTML = originalHTML;
+                btn.style.color = '';
+                btn.style.fontWeight = '';
+            }, 2000);
+        }
+
+        // Call Dropdown Logic
+        const callBtn = document.getElementById('callMenuBtn');
+        const callMenu = document.getElementById('callMenu');
+        
+        callBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isExpanded = callBtn.getAttribute('aria-expanded') === 'true';
+            callBtn.setAttribute('aria-expanded', !isExpanded);
+            callMenu.style.opacity = isExpanded ? '0' : '1';
+            callMenu.style.visibility = isExpanded ? 'hidden' : 'visible';
+            callMenu.style.transform = isExpanded ? 'translateX(-50%) translateY(10px)' : 'translateX(-50%) translateY(0)';
+        });
+
+        document.addEventListener('click', () => {
+            callBtn.setAttribute('aria-expanded', 'false');
+            callMenu.style.opacity = '0';
+            callMenu.style.visibility = 'hidden';
+            callMenu.style.transform = 'translateX(-50%) translateY(10px)';
+        });
+
+        callMenu.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+
+        // Mobile Menu Logic
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainNav = document.getElementById('mainNav');
+        const headerActions = document.getElementById('headerActions');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            headerActions.classList.toggle('active');
+            
+            // Change icon from hamburger to close
+            const icon = mobileMenuBtn.querySelector('i');
+            if(mainNav.classList.contains('active')) {
+                icon.classList.remove('ri-menu-line');
+                icon.classList.add('ri-close-line');
+            } else {
+                icon.classList.remove('ri-close-line');
+                icon.classList.add('ri-menu-line');
+            }
+        });
+    </script>
+</body>
+</html>
