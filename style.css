@@ -909,6 +909,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .header-actions { display: none; width: 100%; flex-direction: column; gap: 16px; padding: 0 20px 20px 20px; }
     .header-actions.active { display: flex; }
+    .mobile-menu-btn { display: block; }
     .phone-cta-btn { justify-content: center; width: 100%; }
     .btn-primary { text-align: center; width: 100%; justify-content: center; }
     
